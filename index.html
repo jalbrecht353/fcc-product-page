@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <title>The Sweet Wild</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home"><img id="header-img" src="assets/images/SW_Icon.png"></a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#product-section">Products</a></li>
+                <li><a class="nav-link" href="#about-section">About</a></li>
+                <li><a class="nav-link" href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img id="home-img" src="assets/images/home-page-tester.jpg" alt="The Sweet Wild Logo with botanical background">
+    </section>
+
+    <section id="product-section">
+        <h2 class="section-title">Products</h2>
+        <div class="product-items">
+            <div class="product">
+                <a href="#" target="_blank"><img src="assets/images/pink-45.jpg" alt="pink colored knit hat"></a>
+                <p class="product-title">Pink Slouchy Hat  -  $45</p>
+            </div>
+            <div class="product">
+                <a href="#" target="_blank"><img src="assets/images/beige-90.jpg" alt="beige colored knit hat"></a>
+                <p class="product-title">Beige Folded Hat   -  $55</p>
+            </div>
+            <div class="product">
+                <a href="#" target="_blank"><img src="assets/images/mustard-45.jpg" alt="mustard colored knit hat"></a>
+                <p class="product-title">Mustard Folded Hat   -  $55</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <h2 class="section-title">About</h2>
+        <div id="about-content">
+            <p id="about-text">Bacon ipsum dolor amet shank prosciutto cupim tail, boudin turkey beef ribs pork belly picanha doner alcatra shoulder. Kevin pancetta turkey drumstick cow tri-tip pork chop shoulder ball tip. Biltong salami strip steak andouille t-bone chicken turducken tail pancetta leberkas flank. Buffalo venison pork, sirloin bresaola tail pork chop burgdoggen fatback. Prosciutto short ribs strip steak frankfurter shankle tail fatback sirloin biltong pork chop brisket salami corned beef spare ribs andouille. Tri-tip fatback doner capicola. Pork belly boudin pork, spare ribs chuck pancetta short ribs bresaola meatball cow landjaeger turkey shank.</p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/9MED-OJz3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h2 class="section-title">Contact</h2>
+        <form id="form">
+            <label for="name">Full Name:</label><input type="text" id="name" required>
+            <label for="email">Email:</label><input type="email" id="email" placeholder="Email Address" required>
+            <label for="message">Message:</label><textarea id="message" required></textarea>
+            <div id="submit-button">
+                <input type="submit" formaction="https://www.freecodecamp.com/email-submit">
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
